@@ -3,10 +3,10 @@
     <div class="advice-card">
       <p>ADVICE {{ '#' + id }}</p>
       <h1>{{ advice }}</h1>
-      <img src="pattern-divider-mobile.svg" alt="pattern divider" />
+      <img src="/pattern-divider-mobile.svg" alt="pattern divider" />
     </div>
     <div @click="getAdvice" class="dice-container">
-      <img src="icon-dice.svg" alt="dice icon" />
+      <img src="/icon-dice.svg" alt="dice icon" />
     </div>
   </div>
 </template>
